@@ -14,9 +14,6 @@ plot(new$month, new$count) ### seasonality- august lower. OUTLIERS
 plot(new$count, new$site_type) ### warnings - INF
 plot(new$year, new$count) ## outliers
 
-
-
-
 ##survey data cleanup
 #gather()#aggregate() #slice() #select() #mutate() #spread
 test3 <- dcast(data = new, site_name + coll_date ~ species + inf_stat, 
